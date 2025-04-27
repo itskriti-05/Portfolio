@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  padding: 0 5rem;
+}
+
+.logo .logo-heading {
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: linear-gradient(90deg, #74d7bb, #53c8b6, #35a99c);
+  background-color: transparent;
+}
+.menu-list-items {
+  list-style-type: none;
+  color: #fff;
+  display: inline;
+  position: relative;
+  right: 100px;
+  top: 2px;
+  transition: all 0.25s;
+}
+.links {    
+  color: #fff;
+  margin-left: 50px;
+  font-size: 17px;
+  text-decoration: none;
+}
+.links:hover{
+    text-decoration: solid underline #fff 2px;
+    transition-property: all 0.25s;
+    transition-timing-function: ease;
+    width: 10px;
+}
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 4.8rem 0;
+}
+.home-image{
+  width: 60%;
+  float: right;
+  padding: 10px 24px 30px ;
+}
+.hero .intro {
+  text-align: center;
+  margin: 0 5rem;
+}
+.greet-heading{
+  font-size: 21px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: lighter;
+  margin-bottom: -40px;
+}
+.my-heading{
+  font-family: 'Poppins',sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.sub-heading{
+  font-size: 18px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: lighter;
+  color: rgb(168, 167, 167);
+  margin-top: -30px;
+
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: none;
+}
+.ghost-btn {
+  background-color: #fff;
+  color: #35A99C;
+  border: 2px solid #35A99C;
+  outline: none;
+}
+.ghost-btn2{
+  background-color: #35A99C;
+  color: #fff;
+  border: 2px solid #fff;
+  outline: none;
+  font-size: 15px;
+}
+.ghost-btn2:hover{
+  background-color: #fff;
+  color: #35A99C;
+  transition: all 0.25s;
+  border: 2px solid #35A99C;
+}
+.ghost-btn:hover {
+  background-color: #35A99C;
+  color: #fff;
+  transition: all 0.25s;
+  border: 2px solid #35A99C;
+}
+.about {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(45deg, #363D73, #2794B3);
+  justify-content: space-between;
+  width: 100%;
+  margin-top:300px;
+  height: 67%;
+}
+
+.about .about-text {
+  width: 540px;
+  color: #fff;
+  padding: 5rem 1rem 5rem 5rem;
+  font-family: 'Poppins',sans-serif;
+
+}
+.about .about-image img {
+  height: 450px;
+  width: 450px;
+  padding: 5rem 5rem 5rem 1rem;
+
+}
+.contact {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+  height: 500px;
+  margin-top: 200px ;
+}
+.contact-details{
+  margin-top: 70px;
+}
+.greet-heading1{
+  width: 30%;
+  background-color: #35a99c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Poppins',sans-serif;
+
+}
+.contact-container p {
+  font-size: 1.2rem;
+  color: #7e7979;
+  font-family: 'Poppins',sans-serif;
+
+}
+.contact-details {
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+  align-items: center;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.contact-item a, .contact-item p {
+  font-size: 18px;
+  color: #363D73;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+}
+.contact-item a:hover {
+  text-decoration: underline;
+}
+.main-footer{
+  height: 350px;
+  background-color: black;
+  color: white;
+  padding-top: 35px;
+  display: block;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+}
+.footer-heading{
+  font-size: 37px;
+  font-weight: bold;
+}
+.footer-text{
+  font-size: 17px;
+  padding: 30px;
+}
+.footer-links i{
+  margin-top: 40px;
+  color: white;
+  font-size: 40px;
+  padding-left: 40px;
+}
